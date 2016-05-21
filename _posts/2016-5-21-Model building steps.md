@@ -40,6 +40,10 @@ dtype: object
 ##
 
 1.Continuous Variable :
+In case of continuous variables, we generally focus on measure of central tendency and spread of data such as Mean,Median,Range,IQR and Standard Deviation. Let's implement them using pandas in python.
+
+Pandas dataframes have an inbuilt routine called describe which does the job.
+
 
 
 
