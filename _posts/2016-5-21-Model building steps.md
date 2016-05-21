@@ -12,7 +12,8 @@ We belive you won't learn data science unless you start doing it by yourself. So
 ![Capture.PNG]({{site.baseurl}}/_posts/Capture.PNG)
 
 ## **Univariate Analysis:**
-Here we will explore all varibles one by one. Method to perform 
+Here we will explore all varibles one by one. Method to perform univariate analysis will depend on whether the variable type is caltagorical or continious. So lets consider those individually.
+
 
 
 
