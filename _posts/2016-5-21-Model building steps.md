@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "You're up and running!"
+title: "Zero to hero in Model building using Python!"
 published: true
 ---
 ###
