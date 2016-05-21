@@ -3,6 +3,8 @@ layout: post
 title: "You're up and running!"
 published: true
 ---
+###
+Hi i am nitin panwar. I love to read about new technologies and love to play cricket.
 
 Next you can update site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
