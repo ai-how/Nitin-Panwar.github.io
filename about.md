@@ -5,7 +5,7 @@ permalink: /about/
 published: true
 ---
 
-Some information about you!
+I love to read about new technologies and share it to wider audience.
 
 ### More Information
 
