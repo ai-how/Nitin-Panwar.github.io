@@ -10,13 +10,11 @@ We belive you won't learn data science unless you start doing it by yourself. So
 ## **Model building steps using Python:**
  
 ##**Loading the data**
-
+import pandas as pd
+train = pd.read_csv('train.csv')
+test = pd.read_csv('test.csv')
 
 ## **Univariate Analysis:**
 Here we will explore all varibles one by one. Method to perform univariate analysis will depend on whether the variable type is caltagorical or continious. So lets consider those individually.
-
-
-![Capture.PNG]({{site.baseurl}}/_posts/Capture.PNG)
-
 
 
