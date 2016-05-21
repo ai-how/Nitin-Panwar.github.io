@@ -21,7 +21,7 @@ Here we will explore all varibles one by one. Method to perform univariate analy
 train.dtypes
 print  train.dtypes
 
-ID                 int64
+> ID                 int64
 Age                int64
 Workclass         object
 Education         object
