@@ -21,19 +21,19 @@ Here we will explore all varibles one by one. Method to perform univariate analy
 train.dtypes
 print  train.dtypes
 
-  ID                 int64
-  Age                int64
-  Workclass         object
-  Education         object
-  Marital.Status    object
-  Occupation        object
-  Relationship      object
-  Race              object
-  Sex               object
-  Hours.Per.Week     int64
-  Native.Country    object
-  Income.Group      object
-  dtype: object
+(ID                 int64
+Age                int64
+Workclass         object
+Education         object
+Marital.Status    object
+Occupation        object
+Relationship      object
+Race              object
+Sex               object
+Hours.Per.Week     int64
+Native.Country    object
+Income.Group      object
+dtype: object)
 
 > Here we can see that there are 3 continuous variables and 9 categorical variables, where the last one(Income group) is the outcome itself. Let's perform univariate analysis on each type.
 
