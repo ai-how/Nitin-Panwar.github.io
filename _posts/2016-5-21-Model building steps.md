@@ -54,6 +54,22 @@ Pandas dataframes have an inbuilt routine called describe which does the job.
   50%    16281.000000     37.000000       40.000000
   75%    24421.000000     48.000000       45.000000
   max    32561.000000     90.000000       99.000000
+  
+  Note that it will show metric only for the numerical type columns in the dataframe. The metrics shown here are:
+  1. count: number of valid enteries in the data. i.e the ones not missing/NAN
+  2. mean: numerical average of all valid entries
+  3. std: standard deviation of all valid entries
+  4. min: minimum value of all valid entries
+  5. 25%: first quartile(25th percentile) of all valid entries
+  6. 50%: median or second quartile (50th percentile) of all valid entries
+  7. 75%: third quartile (75th percentile) of all valid entries
+  8. max: maximum value of all valid entries
+
+
+  
+  
+
+
 
 
 
