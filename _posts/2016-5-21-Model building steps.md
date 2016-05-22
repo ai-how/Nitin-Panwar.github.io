@@ -9,7 +9,7 @@ We belive you won't learn data science unless you start doing it by yourself. So
 
 ## **Model building steps using Python:**
  
-##**Loading the data**
+## **Loading the data:**
   import pandas as pd
   train = pd.read_csv('train.csv')
   test = pd.read_csv('test.csv')
