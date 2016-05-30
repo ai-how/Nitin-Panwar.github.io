@@ -16,7 +16,8 @@ Needless to say. It still has few drawbacks too
 - It is interpreted language rather than compiled language - hence might take up more CPU time.
 
 ## Following are a list of libraries, You will need for any scientific computations and data analysis:
-
+**NumPy** stands for Numerical Python. The most powerful feature of NumPy is n-dimensional array. This library also contains basic linear algebra functions. Fourier transformations, advanced random number capablities and tools for integration with other low level languages like Fortran, C and C++.
+SciPy stands for Scientific Python 
 
 
 
