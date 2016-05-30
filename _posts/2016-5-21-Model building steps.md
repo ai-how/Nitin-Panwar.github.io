@@ -1,78 +1,19 @@
 ---
 layout: post
-title: "Zero to hero in Model building using Python!"
+title: A Complete Tutorial to Learn Data Science with Python from Scratch
 published: true
 ---
 
+Due to lack of resource on python for data science. I decided to create this tutorial to help many others to learn python faster. In this tutorial we will take bite sized information about how to use Python for data Analysis, chew it till we are comfortable and practice it at our end.
 
-We belive you won't learn data science unless you start doing it by yourself. So don't copy paste this code try to write it. This activity will improve your muscle memory and will help to retain knowledge for long.
-
-## **Model building steps using Python:**
- 
-## **Loading the data:**
-  import pandas as pd
-  train = pd.read_csv('train.csv')
-  test = pd.read_csv('test.csv')
-
-## **Univariate Analysis:**
-Here we will explore all varibles one by one. Method to perform univariate analysis will depend on whether the variable type is caltagorical or continious. So lets consider those individually.
-
-#let's start by looking at the data type of each column
-train.dtypes
-print  train.dtypes
-
-('ID                 int64
-Age                int64
-Workclass         object
-Education         object
-Marital.Status    object
-Occupation        object
-Relationship      object
-Race              object
-Sex               object
-Hours.Per.Week     int64
-Native.Country    object
-Income.Group      object
-dtype: object')
-
-> Here we can see that there are 3 continuous variables and 9 categorical variables, where the last one(Income group) is the outcome itself. Let's perform univariate analysis on each type.
-
-##
-
-1.Continuous Variable :
-In case of continuous variables, we generally focus on measure of central tendency and spread of data such as Mean,Median,Range,IQR and Standard Deviation. Let's implement them using pandas in python.
-
-Pandas dataframes have an inbuilt routine called describe which does the job.
-  In[16]:train.describe()
-  Out[16]: 
-                   ID           Age  Hours.Per.Week
-  count  32561.000000  32561.000000    32561.000000
-  mean   16281.000000     38.581647       40.437456
-  std     9399.695394     13.640433       12.347429
-  min        1.000000     17.000000        1.000000
-  25%     8141.000000     28.000000       40.000000
-  50%    16281.000000     37.000000       40.000000
-  75%    24421.000000     48.000000       45.000000
-  max    32561.000000     90.000000       99.000000
-  
-  Note that it will show metric only for the numerical type columns in the dataframe. The metrics shown here are:
-  1. count: number of valid enteries in the data. i.e the ones not missing/NAN
-  2. mean: numerical average of all valid entries
-  3. std: standard deviation of all valid entries
-  4. min: minimum value of all valid entries
-  5. 25%: first quartile(25th percentile) of all valid entries
-  6. 50%: median or second quartile (50th percentile) of all valid entries
-  7. 75%: third quartile (75th percentile) of all valid entries
-  8. max: maximum value of all valid entries
+## Why Python?
+- Open Source 
+- Awesome online community
+- Easy to learn
 
 
-  
-  
-
-
-
-
-
+Needless to say. It still has few drawbacks too:
+- It is interpreted language rather than compiled language - hence might take up more CPU time.
 
 
 
