@@ -15,6 +15,8 @@ Due to lack of resource on python for data science. I decided to create this tut
 Needless to say. It still has few drawbacks too
 - It is interpreted language rather than compiled language - hence might take up more CPU time.
 
+## Following are a list of libraries, You will need for any scientific computations and data analysis:
+
 
 
 
