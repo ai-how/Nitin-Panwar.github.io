@@ -8,7 +8,7 @@ published: false
 
   1. Install IIS url rewrite module.
   2. Add web.config file in your code base.
-  '''
+ 
  <?xml version="1.0" encoding="utf-8"?> 
   <configuration>
       <system.webServer>
@@ -26,7 +26,7 @@ published: false
           </rewrite>
       </system.webServer>
   </configuration>
- '''
+
 
 
 
