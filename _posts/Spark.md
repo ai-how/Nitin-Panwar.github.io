@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Usefull info about Spark 
-published: false
+published: true
 ---
 
 
