@@ -1,7 +1,7 @@
 ---
 layout: post
 title: IIS server page refresh issue with AngularJs
-published: true
+published: false
 ---
 
 **Follow these simple steps and your page refresh issue will be resolved.
