@@ -69,33 +69,22 @@ The dendrogram output is to be interpreted as follows:
 
 
 #### K-Means Clustering:
-As opposed hierarchical clustering, where one does not arrive at the number of clusters until after the dendrogram, in K-means, the number of clusters is decided beforehand. The algorithm then generates k document clusters in a way that ensures the within-cluster distances from each  cluster member to the centroid (or geometric mean) of the cluster is minimized.
+As opposed hierarchical clustering, where one does not arrive at the number of clusters until after the dendrogram, in K-means, the number of clusters is decided beforehand. The algorithm then generates k document clusters in a way that ensures the within-cluster distances from each  cluster member to the centroid (or geometric mean) of the cluster is minimized.A simplified description of the algorithm is as follows:
 
-A simplified description of the algorithm is as follows:
+1. Assign the documents randomly to k bins
 
-Assign the documents randomly to k bins
+2. Compute the location of the centroid of each
 
-Compute the location of the centroid of each
+3. Compute the distance between each document and each centroid
 
-Compute the distance between each document and each centroid
+4. Assign each document to the bin corresponding to the centroid closest to
 
-Assign each document to the bin corresponding to the centroid closest to
+5. Stop if no document is moved to a new bin, else repeat
 
-Stop if no document is moved to a new bin, else go to step
+##### Choosing k
+The most significant factor of employing k-means clustering is choosing the no. of clusters, ‘k’. The ‘elbow method’, wherein the SUM of Squared Error (SSE, the sum of the squared distance between each member of the cluster and its centroid) decreases abruptly at that value that is theoretically the optimal value of k, is widely applied to arrive at k, When k is plotted against the SSE, it will be seen that the error decreases as k gets larger; this is because when the number of clusters increases, they become smaller, and hence the distortion is also smaller.Here, the optimal value for k is shown to be 3, as that is where the SSE decreases abruptly. With k=3, the matrix of tweets was clustered using k-means.
 
-3.2.1 Choosing k
-
-The most significant factor of employing k-means clustering is choosing the no. of clusters, ‘k’. The ‘elbow method’, wherein the SUM of Squared Error (SSE, the sum of the squared distance between each member of the cluster and its centroid) decreases abruptly at that value that is theoretically the optimal value of k, is widely applied to arrive at k.
-
-When k is plotted against the SSE, it will be seen that the error decreases as k gets larger; this is because when the number of clusters increases, they become smaller, and hence the distortion is also smaller.
-
-23
-
-Here, the optimal value for k is shown to be 3, as that is where the SSE decreases abruptly. With k=3, the matrix of tweets was clustered using k-means.
-
-24
-
-The plot clearly shows that there is only marginal dissimilarity with a corpus at 98% sparsity. This is evident from the top 10 words in each of the three clusters.
+This is evident from the top 10 words in each of the three clusters.
 
 cluster 1: rain need status flood helplin number contact stay safe atus
 cluster 2: food need contact avail peopl near water area call status 
