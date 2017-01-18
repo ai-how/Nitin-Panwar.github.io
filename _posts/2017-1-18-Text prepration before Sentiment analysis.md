@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Text prepration befor Sentiment analysis 
+title: Text prepration before Sentiment analysis 
 published: true
 ---
 
