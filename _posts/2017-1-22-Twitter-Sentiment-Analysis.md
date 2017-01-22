@@ -9,7 +9,6 @@ Learning new things are always exciting. Today i will be sharing about Twitter s
 ```
 python Exporter.py --querysearch "ChennaiFloods" --since 2015-12-1 --until 2015-12-2 --maxtweets 6000
 ```
-Inline-style: 
-![alt text](Nitin-Panwar.github.io/images/Capture1.PNG "Logo Title Text 1")
+![](http://imgur.com/a/fOYVj)
 
 
