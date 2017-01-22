@@ -9,6 +9,6 @@ Learning new things are always exciting. Today i will be sharing about Twitter s
 ```
 python Exporter.py --querysearch "ChennaiFloods" --since 2015-12-1 --until 2015-12-2 --maxtweets 6000
 ```
-[Imgur](http://i.imgur.com/8a0uHsk.png)
+![Imgur](http://i.imgur.com/8a0uHsk.png)
 
 
