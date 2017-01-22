@@ -9,6 +9,16 @@ Learning new things are always exciting. Today i will be sharing about Twitter s
 ```
 python Exporter.py --querysearch "ChennaiFloods" --since 2015-12-1 --until 2015-12-2 --maxtweets 6000
 ```
+
+ 
+```
+import pandas as pd
+import nltk 
+tweet_df =pd.read_csv("output_got.csv")
+users = tweet_df["username"].tolist()
+fdist2 = nltk.FreqDist(users)
+fdist2.plot(10)
+```
 ![Imgur](http://i.imgur.com/8a0uHsk.png)
 
 
