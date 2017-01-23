@@ -10,7 +10,7 @@ Learning new things are always exciting. Today i will be sharing about Twitter s
 python Exporter.py --querysearch "ChennaiFloods" --since 2015-12-1 --until 2015-12-2 --maxtweets 6000
 ```
 
- 
+Top 10 users
 ```
 import pandas as pd
 import nltk 
@@ -21,4 +21,6 @@ fdist2.plot(10)
 ```
 ![Imgur](http://i.imgur.com/8a0uHsk.png)
 
+### Text Pre-processing
+All tweets are processed to remove unnecessary things like links, non-English words, stopwords, punctuation’s, etc.
 
