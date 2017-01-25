@@ -11,6 +11,7 @@ python Exporter.py --querysearch "ChennaiFloods" --since 2015-12-1 --until 2015-
 ```
 
 Top 10 users
+
 ```
 import pandas as pd
 import nltk 
@@ -19,8 +20,13 @@ users = tweet_df["username"].tolist()
 fdist2 = nltk.FreqDist(users)
 fdist2.plot(10)
 ```
+
 ![Imgur](http://i.imgur.com/8a0uHsk.png)
 
 ### Text Pre-processing
-All tweets are processed to remove unnecessary things like links, non-English words, stopwords, punctuation’s, etc.
+All tweets are processed to remove unnecessary things like links, non-English words, stopwords, punctuation’s, etc. First you need to download stopword corpus in your computer.Start NLTK Downloader and download all the data you need.
 
+'''
+import nltk
+nltk.download()
+'''
