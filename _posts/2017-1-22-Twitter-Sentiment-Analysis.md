@@ -26,7 +26,7 @@ fdist2.plot(10)
 ### Text Pre-processing
 All tweets are processed to remove unnecessary things like links, non-English words, stopwords, punctuation’s, etc. First you need to download stopword corpus in your computer.Start NLTK Downloader and download all the data you need.
 
-'''
+```
 import nltk
 nltk.download()
-'''
+```
