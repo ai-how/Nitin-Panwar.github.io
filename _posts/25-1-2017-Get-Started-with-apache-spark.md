@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Twitter Sentiment Analysis
+title: Get started with Spark using Scala
 published: true
 ---
 
