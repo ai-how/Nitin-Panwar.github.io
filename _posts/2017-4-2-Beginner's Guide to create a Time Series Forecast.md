@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IIS server page refresh issue with AngularJs
+title: Beginner's Guide to create a Time Series Forecast in Python
 published: true
 ---
 
