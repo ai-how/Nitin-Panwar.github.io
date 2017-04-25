@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Elasticsearch tutorial for beginners 
+title: Elasticsearch tutorial for beginners using Python
 published: true
 ---
 
@@ -9,6 +9,12 @@ published: true
 This tutorial is for the beginers who want to learn Elasticsearch from the scratch. In this tutorial i am gonna cover all the basic and advace stuff related to the Elasticsearch. So let's get started.
 #### Elasticsearch:- 
 Elasticsearch is a real-time distributed search and analytics engine. It allows you to explore your data at a speed and at a scale never before possible. It is used for full text search, structured search, analytics and all three in combination. Elastic search is an open source search engine built on top of Apache Lucecne, a full text search engine library. 
+
+
+
+
+
+
 #### Installing and running Elasticsearch: 
 The only requirement for installing Elasticsearch is a recent version of Java. To install Elasticsearch, download and extract the archive file from elastic.co/downlaods/elasticsearch and simply run bin\elasticsearch.bat. Test it in browser @ 'http://localhost:9200'.
 
