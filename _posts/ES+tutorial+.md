@@ -1,3 +1,10 @@
+---
+layout: post
+title: Elasticsearch tutorial for beginners 
+published: true
+---
+
+
 
 This tutorial is for the beginers who want to learn Elasticsearch from the scratch. In this tutorial i am gonna cover all the basic and advace stuff related to the Elasticsearch. So let's get started.
 #### Elasticsearch:- 
