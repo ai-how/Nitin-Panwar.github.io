@@ -1,5 +1,5 @@
 ---
 layout: post
-title: Using Kibana Timelion for Time Series Analysis
+title: Kibana Timelion for Time Series Analysis
 published: true
 ---
