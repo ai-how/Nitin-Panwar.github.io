@@ -16,6 +16,17 @@ Since Timelion is built into Kibana, there is no need in taking any additional i
 ## Timelion Expressions 
 Timelion also has its query syntax, that is easy to use and very straight forward. It will not much of your time to get started with the Timelion query syntax. 
 
+To get started, just open the Timelion in Kiabana and write the query 
+''' 
+.es(*)
+'''
+
+
+
+
+
+
+
 To start, you need to define only three paramaters in Timelion query-
 1. Index- Index of the data that you want to explore
 2. Timestamp- What is the column name of the timestamp field
