@@ -37,13 +37,13 @@ In this example you will be able to offset the data back one day.
 ```
 .es(index='elastalert_*',timefield='starttime'), .es(index='elastalert_*',timefield='starttime', offset=-1d),
 ```
-![](http://i.imgur.com/q7KMOvL.png)
+![](http://i.imgur.com/NeUu4qk.png)
 
 It is bit hard to differntiate the two series, so lets go ahead and add the label for each of the series for the better understanding. 
 ```
 .es(index='elastalert_*',timefield='starttime').label('current day'), .es(index='elastalert_*',timefield='starttime', offset=-1d).label('previous day')
 ```
-![](http://i.imgur.com/0hlUaPj.png)
+![](http://i.imgur.com/q7KMOvL.png)
 
 Timelion provides a lot of other functionality. e.g 
 ## title()
@@ -51,7 +51,7 @@ You can add the title for the visualization very easily by just applying .title(
 ```
 .es(index='elastalert_*',timefield='starttime').label('current day'), .es(index='elastalert_*',timefield='starttime', offset=-1d).label('previous day').title('Experiments with timelion')
 ```
-![](http://i.imgur.com/iwRJfTb.png)
+![](http://i.imgur.com/6mLfKan.png)
 
 ## lines()
 
@@ -59,7 +59,8 @@ To visualize data and to diffrentiate one series from another, you can use lines
 ```
 .es(index='elastalert_*',timefield='starttime').label('current day').lines(fill=1,width=0.5).color(gray), .es(index='elastalert_*',timefield='starttime', offset=-1d).label('previous day').title('Experiments with timelion').lines(fill=0,width=1).color(red)
 ```
-![](http://i.imgur.com/6mLfKan.png)
+
+![](http://i.imgur.com/0hlUaPj.png)
 
 ## Mathematics functions
 Timelion supports most of the commanly used mathematical funtions e.g 
@@ -80,7 +81,7 @@ To configure threshold we will need if(), to compare each point to number, adjus
 ```
 .es(index='elastalert_*'),.es(index='elastalert_*').if(gt,60,.es(index='elastalert_*'),null).label('alert').color('red')
 ```
-![](http://i.imgur.com/NeUu4qk.png)
+![](http://i.imgur.com/iwRJfTb.png)
 
 There are other functionalities also available in Timelion like calculate moving avg etc. 
 
