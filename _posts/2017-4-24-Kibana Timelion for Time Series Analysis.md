@@ -17,9 +17,9 @@ Since Timelion is built into Kibana, there is no need in taking any additional i
 Timelion also has its query syntax, that is easy to use and very straight forward. It will not much of your time to get started with the Timelion query syntax. 
 
 To get started, just open the Timelion in Kiabana and write the query 
-''' 
+```
 .es(*)
-'''
+```
 
 
 
