@@ -4,7 +4,6 @@ title: How to prepare Time Series Data for LSTM Networks
 published: true
 ---
 
-## LSTM
 LSTM stands for Long short term memory, LSTMs came into picture to overcome the disadvantage of RNN. RNN has a disadvantage that it cann't store long sequences. 
 
 It is not always staright forward to feed the data to LSTM model. LSTM except three dimentsional input in the Keras python deep learning library, And it doesn't like squences of more than 200-400 time steps, so the data will need to be split into samples. 
