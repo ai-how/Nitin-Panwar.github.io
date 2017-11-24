@@ -1,5 +1,5 @@
 ---
 layout: post
-title: Kibana Timelion for Time Series Analysis
+title: Prepare Univariate Time Series Data for Long Short-Term Memory Networks
 published: true
 ---
