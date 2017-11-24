@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prepare Univariate Time Series Data for Long Short-Term Memory Networks
+title: How to prepare Time Series Data for LSTM Networks
 published: true
 ---
 
