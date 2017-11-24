@@ -24,11 +24,14 @@ Python code to create data...
 ## Output
     [[ 1 10] [ 2 20] [ 3 30] [ 4 40] [ 5 50]]
     (5000, 2)
+    
 If your time series data is uniform over time and there is no missing values, we can drop the time column.
+
 ## Python code
     # drop time 
     data = data[:, 1] 
     print(data.shape)
+    
 ## Output
     (5000,)
 
@@ -45,6 +48,7 @@ In this case, 5,000 times steps are too long, therfore, we need to split it into
       sample = data[i:i+length]	
       samples.append(sample)
     print(len(samples))
+    
 ## Output
     25
 
@@ -55,16 +59,19 @@ Here we have 25 samples, 200 time steps per sample and 1 feature. First we need 
 ## Python code
     data =array(samples)
     print(data.shpape)
+    
 ## output
     (25*200)
 
 Next, we can use the reshape() function to add one additional dimension for our single feature. 
+
 ## Python code 
     data = data. reshape(len(samples),length,1))
     print(data.shape)
+    
 And this is it. 
-
 The data can now be used as an input(X) to an LSTM model.
+
 ## output
     (25,200,1)
 
