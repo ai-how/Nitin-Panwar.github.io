@@ -11,15 +11,15 @@ I will try to start from very basics of data science and then slowly move to exp
 #### Bias:  
 "Bias is error introduced in your model due to over simplification of machine learning algorithm."
 Let me simplify it for you, when you train your model at that time model makes simplifying assumptions to make the target function easier to understand.
-Low bias machine learning algorithms - Decision Trees, k-NN and SVM 
-Hight bias machine learning algorithms - Liear Regression, Logistic Regression
+##### Low bias machine learning algorithms - Decision Trees, k-NN and SVM 
+##### Hight bias machine learning algorithms - Liear Regression, Logistic Regression
 
 #### Variance: 
-"Variance is error introduced in your model due to complex machine learning algorithm, your model learns noise also from the training dataset and perform bad on test dataset."
+"Variance is error introduced in your model due to complex machine learning algorithm, your model learns noise also from the training dataset and performs bad on test dataset."
 
 #### Bias, Variance trade off:
 The goal of any supervised machine learning algorithm is to have low bias and low variance to achive good prediction performance.
-1. The k-nearest neighbors algorithm has low bias and high variance, but the trade-off can be changed by increasing the value of k which increases the number of neighbors that contribute t the prediction and in turn increases the bias of the model.
+1. The k-nearest neighbors algorithm has low bias and high variance, but the trade-off can be changed by increasing the value of k which increases the number of neighbors that contribute to the prediction and in turn increases the bias of the model.
 
 2. The support vector machine algorithm has low bias and high variance, but the trade-off can be changed by increasing the C parameter that influences the number of violations of the margin allowed in the training data which increases the bias but decreases the variance.
 
@@ -27,5 +27,8 @@ There is no escaping the relationship between bias and variance in machine learn
 
 Increasing the bias will decrease the variance.
 Increasing the variance will decrease the bias.
+
+## Explain TF/IDF in detail.
+When we train any machine learning model then we will need numerical inputs to be fed to the model, but there are some cases when you have input as a english paragraph and you want to train your model on these input features. For this purpose we use TF/IDF to convert input paragraph to numeri stands for Term frequency and IDF stands for Inverse document frequency. 
 
 
