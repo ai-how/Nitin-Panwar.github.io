@@ -28,7 +28,5 @@ There is no escaping the relationship between bias and variance in machine learn
 Increasing the bias will decrease the variance.
 Increasing the variance will decrease the bias.
 
-## Explain TF/IDF in detail.
-When we train any machine learning model then we will need numerical inputs to be fed to the model, but there are some cases when you have input as a english paragraph and you want to train your model on these input features. For this purpose we use TF/IDF to convert input paragraph to numeri stands for Term frequency and IDF stands for Inverse document frequency. 
 
 
