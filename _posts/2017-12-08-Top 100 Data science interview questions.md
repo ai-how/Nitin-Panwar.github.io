@@ -52,13 +52,13 @@ The confusion matrix is a 2X2 table that contains 4 outputs provided by the __bi
 ![](https://i.imgur.com/NYozwa5.png)
 
 A dataset used for performance evaluation is called test dataset. It should contain the correct labels and predicted labels.
-![observed-labels.png]({{site.baseurl}}/_posts/observed-labels.png)
+![observed-labels.png](https://i.imgur.com/64mZwRG.png)
 
 The predicted labels will exactly the same if the performance of a bionary classfier is perfect.
-![perfect-classifier.png]({{site.baseurl}}/_posts/perfect-classifier.png)
+![perfect-classifier.png](https://i.imgur.com/HeVTzab.png)
 
 The predicted labels usually match with part of the observed labels in real world scenarios. 
-![regular-classifier.png]({{site.baseurl}}/_posts/regular-classifier.png)
+![regular-classifier.png](https://i.imgur.com/hqNvN2N.png)
 
 
 
