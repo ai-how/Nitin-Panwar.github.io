@@ -9,13 +9,14 @@ I will try to start from very basics of data science and then slowly move to exp
 
 ## 1. What is bias, variance trade off ?
 #### Bias:  
-"Bias is error introduced in your model due to over simplification of machine learning algorithm."
-When you train your model at that time model makes simplified assumptions to make the target function easier to understand.
+"Bias is error introduced in your model due to over simplification of machine learning algorithm." 
+It can lead to underfitting. When you train your model at that time model makes simplified assumptions to make the target function easier to understand.
 ##### Low bias machine learning algorithms - Decision Trees, k-NN and SVM 
 ##### Hight bias machine learning algorithms - Liear Regression, Logistic Regression
 
 #### Variance: 
 "Variance is error introduced in your model due to complex machine learning algorithm, your model learns noise also from the training dataset and performs bad on test dataset."
+It can lead high sensitivity and overfitting.
 
 #### Bias, Variance trade off:
 The goal of any supervised machine learning algorithm is to have low bias and low variance to achive good prediction performance.
@@ -37,6 +38,15 @@ This has the effect of your model being unstable and unable to learn from your t
 Now let's understand what is the gradient.
 #### Gradient: 
 Gradient is the __direction and magnitude__ calculated during training of a neural network that is used to update the network weights in the right direction and by the right amount. 
+
+
+## 3.  What is the difference between supervised and unsupervised machine learning?
+#### Supervised Machine learning:
+Supervised machine learning requires training labeled data. 
+#### Unsupervised Machine learning: 
+Unsupervised machine learning doesn't required labeled data. 
+
+### 4. How KNN supervised machine learning algorithm works?
 
 
 
