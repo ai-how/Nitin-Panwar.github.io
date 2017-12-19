@@ -48,6 +48,13 @@ Unsupervised machine learning doesn't required labeled data.
 
 ### 4. How KNN supervised machine learning algorithm works?
 
+### 5. What is a confusion matrix ?
+The confusion matrix is a 2X2 table that contains 4 outputs provided by the __binary classifier__.  Various measures, such as error-rate, accuracy, specificity, sensitivity, precision and recall are derived from it. 
+__Confusion Matrix__
+![](https://i.imgur.com/NYozwa5.png)
+
+
+
 
 
 
