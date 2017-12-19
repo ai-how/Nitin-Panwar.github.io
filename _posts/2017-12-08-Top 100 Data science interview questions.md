@@ -29,4 +29,9 @@ Increasing the bias will decrease the variance.
 Increasing the variance will decrease the bias.
 
 
+## 2. What is exploding gradients ?
+"Exploding gradients are a problem where __large error gradients__ accumulate and result in very large updates to neural network model weights during training."
+
+This has the effect of your model being unstable and unable to learn from your training data.
+
 
