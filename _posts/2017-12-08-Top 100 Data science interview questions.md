@@ -57,13 +57,33 @@ A dataset used for performance evaluation is called test dataset. It should cont
 
 ![observed-labels.png](https://i.imgur.com/64mZwRG.png)
 
-The predicted labels will exactly the same if the performance of a bionary classfier is perfect.
+The predicted labels will exactly the same if the performance of a binary classfier is perfect.
 
 ![perfect-classifier.png](https://i.imgur.com/HeVTzab.png)
 
 The predicted labels usually match with part of the observed labels in real world scenarios. 
 
 ![regular-classifier.png](https://i.imgur.com/hqNvN2N.png)
+ 
+ A binary classifier predicts all data instances of a test dataset as either positive or negative. This produces four outcomes-
+ 1. True positive - Correct positive prediction
+ 2. False positive - Incorrect positive prediction
+ 3. True negative - Correct negative prediction
+ 4. False negative  - Incorrect negative prediction 
+ 
+ ![perfect-classifier.png](https://i.imgur.com/WxQLV83.png)
+ 
+ #### Basic measures derived from the confusion matrix
+ 1. Error Rate = (FP+FN)/(P+N)
+ 2. Accuracy = (TP+TN)/(P+N)
+ 3. Sensitivity(Recall or True positive rate) = TP/P
+ 4. Specificity(True negative rate) = TN/N
+ 5. Precision(Positive predicted value) = TP/(TP+FP)
+ 6. F-Score(Harmonic mean of precision and recall) = (1+b)(PREC.REC)/(b^2PREC+REC) where b is commonly .5,1,2.
+ 
+ 
+ 
+
  
 
 
