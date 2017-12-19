@@ -10,7 +10,7 @@ I will try to start from very basics of data science and then slowly move to exp
 ## 1. What is bias, variance trade off ?
 #### Bias:  
 "Bias is error introduced in your model due to over simplification of machine learning algorithm."
-Let me simplify it for you, when you train your model at that time model makes simplifying assumptions to make the target function easier to understand.
+When you train your model at that time model makes simplified assumptions to make the target function easier to understand.
 ##### Low bias machine learning algorithms - Decision Trees, k-NN and SVM 
 ##### Hight bias machine learning algorithms - Liear Regression, Logistic Regression
 
