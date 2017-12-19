@@ -31,7 +31,13 @@ Increasing the variance will decrease the bias.
 
 ## 2. What is exploding gradients ?
 "Exploding gradients are a problem where __large error gradients__ accumulate and result in very large updates to neural network model weights during training."
+At an extreme, the values of weights can become so large as to overflow and result in NaN values.
 
-This has the effect of your model being unstable and unable to learn from your training data.
+This has the effect of your model being unstable and unable to learn from your training data. 
+Now let's understand what is the gradient.
+#### Gradient: 
+Gradient is the __direction and magnitude__ calculated during training of a neural network that is used to update the network weights in the right direction and by the right amount. 
+
+
 
 
