@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Top 100 Data science interview questions
-published: false
+published: true
 ---
 Data science, also knowns as data-driven decision, is an interdisciplinery field about scientific methods, procss and systems to extract knowledge from data in various forms, and take descision based on this knowledge. A data scientist should not be evaluated only on his/her knowledge on mahine learning, but he/she should also have good expertise on statistics. 
 I will try to start from very basics of data science and then slowly move to expert level. So let's get started.
