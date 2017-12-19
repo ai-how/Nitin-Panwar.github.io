@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Top 100 Data science interview questions
-published: true
+published: false
 ---
-
 Data science, also knowns as data-driven decision, is an interdisciplinery field about scientific methods, procss and systems to extract knowledge from data in various forms, and take descision based on this knowledge. A data scientist should not be evaluated only on his/her knowledge on mahine learning, but he/she should also have good expertise on statistics. 
 I will try to start from very basics of data science and then slowly move to expert level. So let's get started.
 
@@ -49,8 +48,18 @@ Unsupervised machine learning doesn't required labeled data.
 ### 4. How KNN supervised machine learning algorithm works?
 
 ### 5. What is a confusion matrix ?
-The confusion matrix is a 2X2 table that contains 4 outputs provided by the __binary classifier__.  Various measures, such as error-rate, accuracy, specificity, sensitivity, precision and recall are derived from it. <br /> __Confusion Matrix__
+The confusion matrix is a 2X2 table that contains 4 outputs provided by the __binary classifier__.  Various measures, such as error-rate, accuracy, specificity, sensitivity, precision and recall are derived from it. _Confusion Matrix_
 ![](https://i.imgur.com/NYozwa5.png)
+
+A dataset used for performance evaluation is called test dataset. It should contain the correct labels and predicted labels.
+![observed-labels.png]({{site.baseurl}}/_posts/observed-labels.png)
+
+The predicted labels will exactly the same if the performance of a bionary classfier is perfect.
+![perfect-classifier.png]({{site.baseurl}}/_posts/perfect-classifier.png)
+
+The predicted labels usually match with part of the observed labels in real world scenarios. 
+![regular-classifier.png]({{site.baseurl}}/_posts/regular-classifier.png)
+
 
 
 
