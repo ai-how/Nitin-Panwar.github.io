@@ -59,7 +59,7 @@ The predicted labels will exactly the same if the performance of a bionary class
 
 The predicted labels usually match with part of the observed labels in real world scenarios. 
 ![regular-classifier.png](https://i.imgur.com/hqNvN2N.png)
-
+ 
 
 
 
