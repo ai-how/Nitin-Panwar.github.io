@@ -63,10 +63,10 @@ The predicted labels usually match with part of the observed labels in real worl
 ![regular-classifier.png](https://i.imgur.com/hqNvN2N.png)
  
  A binary classifier predicts all data instances of a test dataset as either positive or negative. This produces four outcomes-
- 1. True positive - Correct positive prediction
- 2. False positive - Incorrect positive prediction
- 3. True negative - Correct negative prediction
- 4. False negative  - Incorrect negative prediction 
+ 1. True positive(TP) - Correct positive prediction
+ 2. False positive(FP) - Incorrect positive prediction
+ 3. True negative(TN) - Correct negative prediction
+ 4. False negative(FN)  - Incorrect negative prediction 
  
  ![perfect-classifier.png](https://i.imgur.com/WxQLV83.png)
  
@@ -83,7 +83,14 @@ The predicted labels usually match with part of the observed labels in real worl
  Selection bias occurs when sample obtained is not represantative of the population intended to be analyzed.
  Example:- It may have more samples related to one category and less samples related to other categories.
  
- ### 7. What are the different kernels in SVM. 
+ ### 7. Explain SVM machine learning model in detail.
+SVM stands for support vector machine, it is a supervised machine learning algorithm which can be used for both __Regression and Classification__. If you have n features in your training dataset, SVM tries to plot it in n-dimentional space with the value of each feature being the value of a particular coordinate. SVM uses hyper planes to seperate out different classes based on the provided kernel function. 
+
+![regular-classifier.png](https://i.imgur.com/dU1GDSe.png)
+
+ 
+ 
+ ### 7. What are the different kernels functions in SVM. 
  There are four types of kernels in SVM.
  1. Linear Kernel
  2. Polynomial kernel
