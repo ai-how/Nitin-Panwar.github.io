@@ -6,13 +6,13 @@ published: true
 Data science, also known as data-driven decision, is an interdisciplinery field about scientific methods, process and systems to extract knowledge from data in various forms, and take descision based on this knowledge. A data scientist should not only be evaluated only on his/her knowledge on mahine learning, but he/she should also have good expertise on statistics. 
 I will try to start from very basics of data science and then slowly move to expert level. So let's get started.
 
-## 1.  What is the difference between supervised and unsupervised machine learning?
+### 1.  What is the difference between supervised and unsupervised machine learning?
 #### Supervised Machine learning:
 Supervised machine learning requires training labeled data. 
 #### Unsupervised Machine learning: 
 Unsupervised machine learning doesn't required labeled data. 
 
-## 2. What is bias, variance trade off ?
+### 2. What is bias, variance trade off ?
 #### Bias:  
 "Bias is error introduced in your model due to over simplification of machine learning algorithm." 
 It can lead to underfitting. When you train your model at that time model makes simplified assumptions to make the target function easier to understand.
@@ -37,7 +37,7 @@ Increasing the bias will decrease the variance.
 Increasing the variance will decrease the bias.
 
 
-## 3. What is exploding gradients ?
+### 3. What is exploding gradients ?
 "Exploding gradients are a problem where __large error gradients__ accumulate and result in very large updates to neural network model weights during training."
 At an extreme, the values of weights can become so large as to overflow and result in NaN values.
 
@@ -72,7 +72,7 @@ The predicted labels usually match with part of the observed labels in real worl
  
  ![perfect-classifier.png](https://i.imgur.com/WxQLV83.png)
  
- #### Basic measures derived from the confusion matrix
+ __Basic measures derived from the confusion matrix__
  1. Error Rate = (FP+FN)/(P+N)
  2. Accuracy = (TP+TN)/(P+N)
  3. Sensitivity(Recall or True positive rate) = TP/P
