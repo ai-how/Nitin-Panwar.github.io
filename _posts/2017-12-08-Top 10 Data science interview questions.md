@@ -119,6 +119,11 @@ The __Information Gain__ is based on the decrease in entropy after a dataset is 
 
 ![Imgur](https://i.imgur.com/rZcG68J.png)
 
+
+### 11. What is pruning in Decision Tree ?
+When we remove sub-nodes of a decision node, this procsss is called pruning or opposite process of splitting. 
+
+
  
  # To Be Continued...
  
