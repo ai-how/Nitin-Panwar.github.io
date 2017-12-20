@@ -112,6 +112,7 @@ A decision tree is built top-down from a root node and involve partitioning of d
 
 
 __Information Gain__ 
+
 The __Information Gain__ is based on the decrease in entropy after a dataset is split on an attribute. Constructing a decision tree is all about finding attributes that returns the highest information gain.
 
 ![Imgur](https://i.imgur.com/KI934dk.png)
