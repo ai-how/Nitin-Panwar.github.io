@@ -99,7 +99,7 @@ SVM stands for support vector machine, it is a supervised machine learning algor
  ### 9. Explain Decision Tree algorithm in detail.
  Decision tree is a supervised machine learning algorithm mainly used for the __Regression and Classification__.It breaks down a dataset into smaller and smaller subsets while at the same time an associated decision tree is incrementally developed. The final result is a tree with decision nodes and leaf nodes. Decision tree can handle both categorical and numerical data. 
  
-[Imgur](https://i.imgur.com/Y4jdwtw.png)
+![Imgur](https://i.imgur.com/Y4jdwtw.png)
  
  
  # To Be Continued...
