@@ -81,26 +81,41 @@ The predicted labels usually match with part of the observed labels in real worl
  6. F-Score(Harmonic mean of precision and recall) = (1+b)(PREC.REC)/(b^2PREC+REC) where b is commonly 0.5, 1, 2.
  
  
- ### 6. What is selection Bias ?
- Selection bias occurs when sample obtained is not represantative of the population intended to be analyzed.
+### 6. What is selection Bias ?
+Selection bias occurs when sample obtained is not represantative of the population intended to be analyzed.
  
- ### 7. Explain SVM machine learning algorithm in detail.
+### 7. Explain SVM machine learning algorithm in detail.
 SVM stands for support vector machine, it is a supervised machine learning algorithm which can be used for both __Regression and Classification__. If you have n features in your training dataset, SVM tries to plot it in n-dimentional space with the value of each feature being the value of a particular coordinate. SVM uses hyper planes to seperate out different classes based on the provided kernel function. 
 
 ![regular-classifier.png](https://i.imgur.com/dU1GDSe.png)
 
- ### 8. What are the different kernels functions in SVM ? 
- There are four types of kernels in SVM.
+### 8. What are the different kernels functions in SVM ? 
+There are four types of kernels in SVM.
  1. Linear Kernel
  2. Polynomial kernel
  3. Radial basis kernel
  4. Sigmoid kernel
  
- ### 9. Explain Decision Tree algorithm in detail.
- Decision tree is a supervised machine learning algorithm mainly used for the __Regression and Classification__.It breaks down a dataset into smaller and smaller subsets while at the same time an associated decision tree is incrementally developed. The final result is a tree with decision nodes and leaf nodes. Decision tree can handle both categorical and numerical data. 
+### 9. Explain Decision Tree algorithm in detail.
+Decision tree is a supervised machine learning algorithm mainly used for the __Regression and Classification__.It breaks down a dataset into smaller and smaller subsets while at the same time an associated decision tree is incrementally developed. The final result is a tree with decision nodes and leaf nodes. Decision tree can handle both categorical and numerical data. 
  
 ![Imgur](https://i.imgur.com/Y4jdwtw.png)
- 
+
+### 10. What is Enteropy and Information gain in Decision tree algorithm ?
+The core algorithm for building decision tree is called __ID3__. __ID3__ uses __Enteropy__ and __Information Gain__ to construct a decision tree. 
+
+__Enteropy__
+
+A decision tree is built top-down from a root node and involve partitioning of data into homogenious subsets. __ID3__ uses enteropy to check the homogeneity of a sample. If the sample is completely homogenious then entropy is zero and if the sample is an equally divided it has entropy of one. 
+
+![Imgur](https://i.imgur.com/XFE0f6V.png)
+
+
+__Information Gain__ 
+The __Information Gain__ is based on the decrease in entropy after a dataset is split on an attribute. Constructing a decision tree is all about finding attributes that returns the highest information gain.
+
+![Imgur](https://i.imgur.com/KI934dk.png)
+
  
  # To Be Continued...
  
