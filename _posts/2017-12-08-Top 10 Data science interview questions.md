@@ -117,6 +117,8 @@ The __Information Gain__ is based on the decrease in entropy after a dataset is 
 
 ![Imgur](https://i.imgur.com/KI934dk.png)
 
+![Imgur](https://i.imgur.com/rZcG68J.png)
+
  
  # To Be Continued...
  
