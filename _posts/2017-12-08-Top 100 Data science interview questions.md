@@ -23,6 +23,8 @@ It can lead to underfitting. When you train your model at that time model makes 
 "Variance is error introduced in your model due to complex machine learning algorithm, your model learns noise also from the training dataset and performs bad on test dataset."
 It can lead high sensitivity and overfitting.
 
+![Bias variance trade off](https://i.imgur.com/a7UKJO8.png)
+
 #### Bias, Variance trade off:
 The goal of any supervised machine learning algorithm is to have low bias and low variance to achive good prediction performance.
 1. The k-nearest neighbors algorithm has low bias and high variance, but the trade-off can be changed by increasing the value of k which increases the number of neighbors that contribute to the prediction and in turn increases the bias of the model.
@@ -81,21 +83,24 @@ The predicted labels usually match with part of the observed labels in real worl
  
  ### 6. What is selection Bias ?
  Selection bias occurs when sample obtained is not represantative of the population intended to be analyzed.
- Example:- It may have more samples related to one category and less samples related to other categories.
  
- ### 7. Explain SVM machine learning model in detail.
+ ### 7. Explain SVM machine learning algorithm in detail.
 SVM stands for support vector machine, it is a supervised machine learning algorithm which can be used for both __Regression and Classification__. If you have n features in your training dataset, SVM tries to plot it in n-dimentional space with the value of each feature being the value of a particular coordinate. SVM uses hyper planes to seperate out different classes based on the provided kernel function. 
 
 ![regular-classifier.png](https://i.imgur.com/dU1GDSe.png)
 
- 
- 
- ### 7. What are the different kernels functions in SVM. 
+ ### 8. What are the different kernels functions in SVM ? 
  There are four types of kernels in SVM.
  1. Linear Kernel
  2. Polynomial kernel
  3. Radial basis kernel
  4. Sigmoid kernel
+ 
+ ### 9. Explain Decision Tree algorithm in detail.
+ Decision tree is a supervised machine learning algorithm mainly used for the __Regression and Classification__.It breaks down a dataset into smaller and smaller subsets while at the same time an associated decision tree is incrementally developed. The final result is a tree with decision nodes and leaf nodes. Decision tree can handle both categorical and numerical data. 
+ 
+ ![Decision Tree](s://i.imgur.com/Y4jdwtw.png)
+ 
  
  # To Be Continued...
  
