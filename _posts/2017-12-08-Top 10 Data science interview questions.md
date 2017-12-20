@@ -78,7 +78,7 @@ The predicted labels usually match with part of the observed labels in real worl
  3. Sensitivity(Recall or True positive rate) = TP/P
  4. Specificity(True negative rate) = TN/N
  5. Precision(Positive predicted value) = TP/(TP+FP)
- 6. F-Score(Harmonic mean of precision and recall) = (1+b)(PREC.REC)/(b^2PREC+REC) where b is commonly .5,1,2.
+ 6. F-Score(Harmonic mean of precision and recall) = (1+b)(PREC.REC)/(b^2PREC+REC) where b is commonly 0.5, 1, 2.
  
  
  ### 6. What is selection Bias ?
