@@ -3,10 +3,16 @@ layout: post
 title: Top 100 Data science interview questions
 published: true
 ---
-Data science, also knowns as data-driven decision, is an interdisciplinery field about scientific methods, procss and systems to extract knowledge from data in various forms, and take descision based on this knowledge. A data scientist should not be evaluated only on his/her knowledge on mahine learning, but he/she should also have good expertise on statistics. 
+Data science, also knowns as data-driven decision, is an interdisciplinery field about scientific methods, process and systems to extract knowledge from data in various forms, and take descision based on this knowledge. A data scientist should not be evaluated only on his/her knowledge on mahine learning, but he/she should also have good expertise on statistics. 
 I will try to start from very basics of data science and then slowly move to expert level. So let's get started.
 
-## 1. What is bias, variance trade off ?
+## 1.  What is the difference between supervised and unsupervised machine learning?
+#### Supervised Machine learning:
+Supervised machine learning requires training labeled data. 
+#### Unsupervised Machine learning: 
+Unsupervised machine learning doesn't required labeled data. 
+
+## 2. What is bias, variance trade off ?
 #### Bias:  
 "Bias is error introduced in your model due to over simplification of machine learning algorithm." 
 It can lead to underfitting. When you train your model at that time model makes simplified assumptions to make the target function easier to understand.
@@ -29,7 +35,7 @@ Increasing the bias will decrease the variance.
 Increasing the variance will decrease the bias.
 
 
-## 2. What is exploding gradients ?
+## 3. What is exploding gradients ?
 "Exploding gradients are a problem where __large error gradients__ accumulate and result in very large updates to neural network model weights during training."
 At an extreme, the values of weights can become so large as to overflow and result in NaN values.
 
@@ -38,16 +44,7 @@ Now let's understand what is the gradient.
 #### Gradient: 
 Gradient is the __direction and magnitude__ calculated during training of a neural network that is used to update the network weights in the right direction and by the right amount. 
 
-
-## 3.  What is the difference between supervised and unsupervised machine learning?
-#### Supervised Machine learning:
-Supervised machine learning requires training labeled data. 
-#### Unsupervised Machine learning: 
-Unsupervised machine learning doesn't required labeled data. 
-
-### 4. How KNN supervised machine learning algorithm works?
-
-### 5. What is a confusion matrix ?
+### 4. What is a confusion matrix ?
 The confusion matrix is a 2X2 table that contains 4 outputs provided by the __binary classifier__.  Various measures, such as error-rate, accuracy, specificity, sensitivity, precision and recall are derived from it.
 _Confusion Matrix_
 
@@ -80,6 +77,22 @@ The predicted labels usually match with part of the observed labels in real worl
  4. Specificity(True negative rate) = TN/N
  5. Precision(Positive predicted value) = TP/(TP+FP)
  6. F-Score(Harmonic mean of precision and recall) = (1+b)(PREC.REC)/(b^2PREC+REC) where b is commonly .5,1,2.
+ 
+ 
+ ### 6. What is selection Bias ?
+ Selection bias occurs when sample obtained is not represantative of the population intended to be analyzed.
+ Example:- It may have more samples related to one category and less samples related to other categories.
+ 
+ ### 7. What are the different kernels in SVM. 
+ There are four types of kernels in SVM.
+ 1. Linear Kernel
+ 2. Polynomial kernel
+ 3. Radial basis kernel
+ 4. Sigmoid kernel
+ 
+ # To Be Continued...
+ 
+ 
  
  
  
