@@ -127,7 +127,7 @@ When we remove sub-nodes of a decision node, this procsss is called pruning or o
 
 
 ### 12. What is Ensemble Learning ?
-Ensemble is the art of combining diverse set of learners(Individual models) togather to improvise on the stability and predictive power of the model. 
+Ensemble is the art of combining diverse set of learners(Individual models) togather to improvise on the stability and predictive power of the model. Ensemble learning has many types but two more popular ensemble learning techniques are mentioned below.
 
 __Bagging__
 
@@ -141,6 +141,10 @@ Boosting is an iterative technique which adjust the weight of an observation bas
 
 ![Imgur](https://i.imgur.com/mH85e7T.png)
 
+### 13. What is Random Forest? How does it work ?
+Random forest is a versatile machine learning method capable of performing both regression and classification tasks. It is also used for dimentionality reduction, treats missing values, outlier values. It is a type of ensemble learning method, where a group of weak models combine to form a powerful model. 
+
+In Random Forest, we grow multiple trees as opposed to a single tree. To classify a new object based on attributes, each tree gives a classification. The forest chooses the classification having the __most votes__(Over all the trees in the forest) and in case of regression, it takes the __average__ of outputs by different trees. 
 
 
 
