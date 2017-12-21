@@ -27,7 +27,7 @@ Normally, as you increase the complexity of your model, you will see a reduction
 
 ![Bias variance trade off](https://i.imgur.com/a7UKJO8.png)
 
-#### Bias, Variance trade off:
+#### Bias, Variance trade off: 
 The goal of any supervised machine learning algorithm is to have low bias and low variance to achive good prediction performance.
 1. The k-nearest neighbors algorithm has low bias and high variance, but the trade-off can be changed by increasing the value of k which increases the number of neighbors that contribute to the prediction and in turn increases the bias of the model.
 
