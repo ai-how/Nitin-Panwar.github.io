@@ -23,6 +23,8 @@ It can lead to underfitting. When you train your model at that time model makes 
 "Variance is error introduced in your model due to complex machine learning algorithm, your model learns noise also from the training dataset and performs bad on test dataset."
 It can lead high sensitivity and overfitting.
 
+Normally, as you increase the complexity of your model, you will see a reduction in error due to lower bias in the model. However, this only happens till a particular point. As you continue to make your model more complex, you end up over-fitting your model and hence your model will start suffering from high variance.
+
 ![Bias variance trade off](https://i.imgur.com/a7UKJO8.png)
 
 #### Bias, Variance trade off:
@@ -122,6 +124,25 @@ The __Information Gain__ is based on the decrease in entropy after a dataset is 
 
 ### 11. What is pruning in Decision Tree ?
 When we remove sub-nodes of a decision node, this procsss is called pruning or opposite process of splitting. 
+
+
+### 12. What is Ensemble Learning ?
+Ensemble is the art of combining diverse set of learners(Individual models) togather to improvise on the stability and predictive power of the model. 
+
+__Bagging__
+
+Bagging tries to implement similar learners on small sample populations and then takes a mean of all the predictions. In generalized bagging, you can use different learners on different population. As you expect this helps us to reduce the variance error.
+
+![Imgur](https://i.imgur.com/1pE4VTo.png)
+
+__Boosting__
+
+Boosting is an iterative technique which adjust the weight of an observation based on the last classification. If an observation was classfied incorrectly, it tries to increase the weight of this observation and vice versa. Boosting in general decreases the bias error and builds strong predictive models. However, they may overfit on the training data. 
+
+![Imgur](https://i.imgur.com/mH85e7T.png)
+
+
+
 
 
  
