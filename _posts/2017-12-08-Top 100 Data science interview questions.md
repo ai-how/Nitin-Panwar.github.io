@@ -155,9 +155,13 @@ In Random Forest, we grow multiple trees as opposed to a single tree. To classif
 Instead of using k-fold cross-validation, you should be aware to the fact that a time series is not randomly distributed data - It is inherently ordered by chronological order. 
 
 In case of time series data, you should use techniques like forward chaining -- Where you will be model on past data then look at forward-facing data. 
+
 fold 1: training[1], test[2]
+
 fold 1: training[1 2], test[3]
+
 fold 1: training[1 2 3], test[4]
+
 fold 1: training[1 2 3 4], test[5]
 
 
