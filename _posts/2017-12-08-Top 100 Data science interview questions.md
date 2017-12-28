@@ -151,6 +151,15 @@ Random forest is a versatile machine learning method capable of performing both 
 
 In Random Forest, we grow multiple trees as opposed to a single tree. To classify a new object based on attributes, each tree gives a classification. The forest chooses the classification having the __most votes__(Over all the trees in the forest) and in case of regression, it takes the __average__ of outputs by different trees. 
 
+### 15. What cross-validation technique would you use on a time series dataset. 
+Instead of using k-fold cross-validation, you should be aware to the fact that a time series is not randomly distributed data - It is inherently ordered by chronological order. 
+
+In case of time series data, you should use techniques like forward chaining -- Where you will be model on past data then look at forward-facing data. 
+fold 1: training[1], test[2]
+fold 1: training[1 2], test[3]
+fold 1: training[1 2 3], test[4]
+fold 1: training[1 2 3 4], test[5]
+
 
 
 
