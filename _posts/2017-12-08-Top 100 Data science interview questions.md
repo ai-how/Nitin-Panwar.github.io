@@ -83,27 +83,32 @@ The predicted labels usually match with part of the observed labels in real worl
  6. F-Score(Harmonic mean of precision and recall) = (1+b)(PREC.REC)/(b^2PREC+REC) where b is commonly 0.5, 1, 2.
  
  
-### 6. What is selection Bias ?
+### 6. Explain how a ROC curve works ?
+The __ROC__ curve is a graphical representation of the contrast between true positive rates and false positive rates at various thresholds. It is often used as a proxy for the trade-off between the sensitivity(true positive rate) and false positive rate.
+
+![Imgur](https://i.imgur.com/HjGC4Zb.png)
+ 
+### 7. What is selection Bias ?
 Selection bias occurs when sample obtained is not represantative of the population intended to be analyzed.
  
-### 7. Explain SVM machine learning algorithm in detail.
+### 8. Explain SVM machine learning algorithm in detail.
 SVM stands for support vector machine, it is a supervised machine learning algorithm which can be used for both __Regression and Classification__. If you have n features in your training dataset, SVM tries to plot it in n-dimentional space with the value of each feature being the value of a particular coordinate. SVM uses hyper planes to seperate out different classes based on the provided kernel function. 
 
 ![regular-classifier.png](https://i.imgur.com/dU1GDSe.png)
 
-### 8. What are the different kernels functions in SVM ? 
+### 9. What are the different kernels functions in SVM ? 
 There are four types of kernels in SVM.
  1. Linear Kernel
  2. Polynomial kernel
  3. Radial basis kernel
  4. Sigmoid kernel
  
-### 9. Explain Decision Tree algorithm in detail.
+### 10. Explain Decision Tree algorithm in detail.
 Decision tree is a supervised machine learning algorithm mainly used for the __Regression and Classification__.It breaks down a dataset into smaller and smaller subsets while at the same time an associated decision tree is incrementally developed. The final result is a tree with decision nodes and leaf nodes. Decision tree can handle both categorical and numerical data. 
  
 ![Imgur](https://i.imgur.com/Y4jdwtw.png)
 
-### 10. What is Entropy and Information gain in Decision tree algorithm ?
+### 11. What is Entropy and Information gain in Decision tree algorithm ?
 The core algorithm for building decision tree is called __ID3__. __ID3__ uses __Enteropy__ and __Information Gain__ to construct a decision tree. 
 
 __Entropy__
@@ -122,11 +127,11 @@ The __Information Gain__ is based on the decrease in entropy after a dataset is 
 ![Imgur](https://i.imgur.com/rZcG68J.png)
 
 
-### 11. What is pruning in Decision Tree ?
+### 12. What is pruning in Decision Tree ?
 When we remove sub-nodes of a decision node, this procsss is called pruning or opposite process of splitting. 
 
 
-### 12. What is Ensemble Learning ?
+### 13. What is Ensemble Learning ?
 Ensemble is the art of combining diverse set of learners(Individual models) togather to improvise on the stability and predictive power of the model. Ensemble learning has many types but two more popular ensemble learning techniques are mentioned below.
 
 __Bagging__
@@ -141,10 +146,12 @@ Boosting is an iterative technique which adjust the weight of an observation bas
 
 ![Imgur](https://i.imgur.com/mH85e7T.png)
 
-### 13. What is Random Forest? How does it work ?
+### 14. What is Random Forest? How does it work ?
 Random forest is a versatile machine learning method capable of performing both regression and classification tasks. It is also used for dimentionality reduction, treats missing values, outlier values. It is a type of ensemble learning method, where a group of weak models combine to form a powerful model. 
 
 In Random Forest, we grow multiple trees as opposed to a single tree. To classify a new object based on attributes, each tree gives a classification. The forest chooses the classification having the __most votes__(Over all the trees in the forest) and in case of regression, it takes the __average__ of outputs by different trees. 
+
+
 
 
 
