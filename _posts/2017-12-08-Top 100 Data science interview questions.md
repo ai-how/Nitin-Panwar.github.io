@@ -103,10 +103,10 @@ Decision tree is a supervised machine learning algorithm mainly used for the __R
  
 ![Imgur](https://i.imgur.com/Y4jdwtw.png)
 
-### 10. What is Enteropy and Information gain in Decision tree algorithm ?
+### 10. What is Entropy and Information gain in Decision tree algorithm ?
 The core algorithm for building decision tree is called __ID3__. __ID3__ uses __Enteropy__ and __Information Gain__ to construct a decision tree. 
 
-__Enteropy__
+__Entropy__
 
 A decision tree is built top-down from a root node and involve partitioning of data into homogenious subsets. __ID3__ uses enteropy to check the homogeneity of a sample. If the sample is completely homogenious then entropy is zero and if the sample is an equally divided it has entropy of one. 
 
