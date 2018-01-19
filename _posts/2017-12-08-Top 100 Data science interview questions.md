@@ -170,6 +170,17 @@ fold 1: training[1 2 3], test[4]
 
 fold 1: training[1 2 3 4], test[5]
 
+### 17. What is logistic regression? Or State an example when you have used logistic regression recently.
+Logistic Regression often referred as logit model is a technique to predict the binary outcome from a linear combination of predictor variables. For example, if you want to predict whether a particular political leader will win the election or not. In this case, the outcome of prediction is binary i.e. 0 or 1 (Win/Lose). The predictor variables here would be the amount of money spent for election campaigning of a particular candidate, the amount of time spent in campaigning, etc.
+
+### 18. What do you understand by the term Normal Distribution?
+
+![Imgur](https://i.imgur.com/fvYTdej.jpg)
+
+Data is usually distributed in different ways with a bias to the left or to the right or it can all be jumbled up. However, there are chances that data is distributed around a central value without any bias to the left or right and reaches normal distribution in the form of a bell shaped curve. The random variables are distributed in the form of an symmetrical bell shaped curve.
+
+
+
 
 
 
