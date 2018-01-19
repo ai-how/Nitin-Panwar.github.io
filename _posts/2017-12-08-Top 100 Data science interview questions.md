@@ -179,6 +179,12 @@ Logistic Regression often referred as logit model is a technique to predict the 
 
 Data is usually distributed in different ways with a bias to the left or to the right or it can all be jumbled up. However, there are chances that data is distributed around a central value without any bias to the left or right and reaches normal distribution in the form of a bell shaped curve. The random variables are distributed in the form of an symmetrical bell shaped curve.
 
+### 19. What is a Box Cox Transformation?
+
+A Box Cox transformation is a way to transform non-normal dependent variables into a normal shape. Normality is an important assumption for many statistical techniques, if your data isn’t normal, applying a Box-Cox means that you are able to run a broader number of tests.
+The Box Cox transformation is named after statisticians ___George Box___ and ___Sir David Roxbee Cox___ who collaborated on a 1964 paper and developed the technique.
+
+
 
 
 
