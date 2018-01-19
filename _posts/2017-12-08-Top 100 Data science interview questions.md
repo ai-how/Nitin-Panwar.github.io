@@ -96,19 +96,25 @@ SVM stands for support vector machine, it is a supervised machine learning algor
 
 ![regular-classifier.png](https://i.imgur.com/dU1GDSe.png)
 
-### 9. What are the different kernels functions in SVM ? 
+### 9. What are support vectors in SVM. 
+
+[SVM](https://i.imgur.com/DmBOr8Y.jpg)
+
+the above diagram we see that the thinner lines mark the distance from the classifier to the closest data points called the support vectors (darkened data points). The distance between the two thin lines is called the margin.
+
+### 10. What are the different kernels functions in SVM ? 
 There are four types of kernels in SVM.
  1. Linear Kernel
  2. Polynomial kernel
  3. Radial basis kernel
  4. Sigmoid kernel
  
-### 10. Explain Decision Tree algorithm in detail.
+### 11. Explain Decision Tree algorithm in detail.
 Decision tree is a supervised machine learning algorithm mainly used for the __Regression and Classification__.It breaks down a dataset into smaller and smaller subsets while at the same time an associated decision tree is incrementally developed. The final result is a tree with decision nodes and leaf nodes. Decision tree can handle both categorical and numerical data. 
  
 ![Imgur](https://i.imgur.com/Y4jdwtw.png)
 
-### 11. What is Entropy and Information gain in Decision tree algorithm ?
+### 12. What is Entropy and Information gain in Decision tree algorithm ?
 The core algorithm for building decision tree is called __ID3__. __ID3__ uses __Enteropy__ and __Information Gain__ to construct a decision tree. 
 
 __Entropy__
@@ -127,11 +133,11 @@ The __Information Gain__ is based on the decrease in entropy after a dataset is 
 ![Imgur](https://i.imgur.com/rZcG68J.png)
 
 
-### 12. What is pruning in Decision Tree ?
+### 13. What is pruning in Decision Tree ?
 When we remove sub-nodes of a decision node, this procsss is called pruning or opposite process of splitting. 
 
 
-### 13. What is Ensemble Learning ?
+### 14. What is Ensemble Learning ?
 Ensemble is the art of combining diverse set of learners(Individual models) togather to improvise on the stability and predictive power of the model. Ensemble learning has many types but two more popular ensemble learning techniques are mentioned below.
 
 __Bagging__
@@ -146,12 +152,12 @@ Boosting is an iterative technique which adjust the weight of an observation bas
 
 ![Imgur](https://i.imgur.com/mH85e7T.png)
 
-### 14. What is Random Forest? How does it work ?
+### 15. What is Random Forest? How does it work ?
 Random forest is a versatile machine learning method capable of performing both regression and classification tasks. It is also used for dimentionality reduction, treats missing values, outlier values. It is a type of ensemble learning method, where a group of weak models combine to form a powerful model. 
 
 In Random Forest, we grow multiple trees as opposed to a single tree. To classify a new object based on attributes, each tree gives a classification. The forest chooses the classification having the __most votes__(Over all the trees in the forest) and in case of regression, it takes the __average__ of outputs by different trees. 
 
-### 15. What cross-validation technique would you use on a time series dataset. 
+### 16. What cross-validation technique would you use on a time series dataset. 
 Instead of using k-fold cross-validation, you should be aware to the fact that a time series is not randomly distributed data - It is inherently ordered by chronological order. 
 
 In case of time series data, you should use techniques like forward chaining -- Where you will be model on past data then look at forward-facing data. 
@@ -163,6 +169,9 @@ fold 1: training[1 2], test[3]
 fold 1: training[1 2 3], test[4]
 
 fold 1: training[1 2 3 4], test[5]
+
+
+
 
 
 
