@@ -181,8 +181,12 @@ Data is usually distributed in different ways with a bias to the left or to the 
 
 ### 19. What is a Box Cox Transformation?
 
+![Imgur](https://i.imgur.com/v8j0w3X.jpg)
+
 A Box Cox transformation is a way to transform non-normal dependent variables into a normal shape. Normality is an important assumption for many statistical techniques, if your data isn’t normal, applying a Box-Cox means that you are able to run a broader number of tests.
 The Box Cox transformation is named after statisticians ___George Box___ and ___Sir David Roxbee Cox___ who collaborated on a 1964 paper and developed the technique.
+
+
 
 
 
