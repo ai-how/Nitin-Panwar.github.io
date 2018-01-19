@@ -98,7 +98,7 @@ SVM stands for support vector machine, it is a supervised machine learning algor
 
 ### 9. What are support vectors in SVM. 
 
-[SVM](https://i.imgur.com/DmBOr8Y.jpg)
+![SVM](https://i.imgur.com/DmBOr8Y.jpg)
 
 the above diagram we see that the thinner lines mark the distance from the classifier to the closest data points called the support vectors (darkened data points). The distance between the two thin lines is called the margin.
 
