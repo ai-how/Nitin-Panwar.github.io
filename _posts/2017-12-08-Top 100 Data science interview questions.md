@@ -211,6 +211,7 @@ Recurrent nets are type of artifical neural networks designed to recognize patte
 ![Imgur](https://i.imgur.com/nO6gRVw.png)
 
 Recurrent networks on the other hand, take as their input not just  the current input example they see, but also the what they have percieved previously in time. The BTSXPE at the bottom of the drawing represents the input example in the current moment, and CONTEXT UNIT represents the output of the previous moment. The decision a recurrent neural network reached at time t-1 affects the decision that it will reach one moment later at time t. 
+
 ![Imgur](https://i.imgur.com/0esriHM.png)
 
 
