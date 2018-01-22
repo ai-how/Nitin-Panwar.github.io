@@ -198,6 +198,29 @@ Within Sum of squares is generally used to explain the homogeneity within a clus
 ![Imgur](https://i.imgur.com/iMqv2OG.png)
 Red circled point in above graph i.e. Number of Cluster =6 is the point after which you don’t see any decrement in WSS. This point is known as bending point and taken as K in K – Means.This is the widely used approach but few data scientists also use Hierarchical clustering first to create dendograms and identify the distinct groups from there.
 
+### 21. What is deep learning?
+
+Deep learning is subfield of machine learning inspired by structure and function of brain called artificial neural network. We have a lot numbers of algorithms under machine learning like Linear regression, SVM, Neural network etc and deep learning is just an extention of Neural networks. In neural nets we consider small number of hidden layers but when it comes to deep learning algorithms we consider a huge number of hidden latyers to better understand the input output relationship. 
+
+![Imgur](https://i.imgur.com/tMkdwUj.png)
+
+### 22. What are Recurrent Neural Networks(RNNs) ?
+
+Recurrent nets are type of artifical neural networks designed to recognize pattern from the sequence of data such as Time series, stock market and goverment agencis etc. To understand recurrent nets, first you have to understand the basics of feedforward nets. Both these networks RNN and feedforward named after the way they channel information throgh a series of mathematical oprations performed at the nodes of the network. One feeds information throgh straingt straight(never touching same node twice), while the other cycles it throgh loop, and the latter are called recurrent.
+
+![Imgur](https://i.imgur.com/nO6gRVw.png)
+
+Recurrent networks on the other hand, take as their input not just  the current input example they see, but also the what they have percieved previously in time. The BTSXPE at the bottom of the drawing represents the input example in the current moment, and CONTEXT UNIT represents the output of the previous moment. The decision a recurrent neural network reached at time t-1 affects the decision that it will reach one moment later at time t. 
+![Imgur](https://i.imgur.com/0esriHM.png)
+
+
+
+
+
+
+
+
+
 
 
 
