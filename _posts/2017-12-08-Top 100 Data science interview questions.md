@@ -188,6 +188,16 @@ Dependent variable for a regression analysis might not satisfy one or more assum
 A Box Cox transformation is a way to transform non-normal dependent variables into a normal shape. Normality is an important assumption for many statistical techniques, if your data isn’t normal, applying a Box-Cox means that you are able to run a broader number of tests.
 The Box Cox transformation is named after statisticians ___George Box___ and ___Sir David Roxbee Cox___ who collaborated on a 1964 paper and developed the technique.
 
+### 20. How will you define the number of clusters in a clustering algorithm?
+
+Though the Clustering Algorithm is not specified, this question will mostly be asked in reference to K-Means clustering where “K” defines the number of clusters. For example, the following image shows three different groups.
+![Imgur](https://i.imgur.com/qgRH8Rm.jpg)
+
+Within Sum of squares is generally used to explain the homogeneity within a cluster. If you plot WSS for a range of number of clusters, you will get the plot shown below. The Graph is generally known as Elbow Curve.
+
+![Imgur](https://i.imgur.com/iMqv2OG.png)
+Red circled point in above graph i.e. Number of Cluster =6 is the point after which you don’t see any decrement in WSS. This point is known as bending point and taken as K in K – Means.This is the widely used approach but few data scientists also use Hierarchical clustering first to create dendograms and identify the distinct groups from there.
+
 
 
 
