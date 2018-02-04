@@ -2,14 +2,12 @@
 layout: page
 title: About
 permalink: /about/
-published: true
+published: false
 ---
-
-I love to read about new technologies and share it to wider audience.
 
 ### More Information
 
 
 ### Contact me
 
-[nitinpanwar98@gmail.com](mailto:nitinpanwar98@gmail.com)
+[deep_83bhatt@yahoo.co.in](mailto:deep_83bhatt@yahoo.co.in)
